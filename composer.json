@@ -1,8 +1,15 @@
 {
   "name": "claranet/birthday-greetings-kata",
   "description": "An example of a modern PHP application bootstrapped without a framework.",
+  "homepage": "https://github.com/mmunaretto/birthday-greetings-kata",
   "type": "project",
-  "require": {},
+  "require": {
+    "php-di/php-di": "@stable",
+    "relay/relay": "~2.0",
+    "laminas/laminas-diactoros": "~2.0",
+    "middlewares/fast-route": "@stable",
+    "middlewares/request-handler": "@stable"
+  },
   "autoload": {
       "psr-4": {
           "ExampleApp\\": "src/"

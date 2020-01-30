@@ -1,12 +1,13 @@
 <?php
-declare(strict_types=1);
+declare (strict_types = 1);
 
 namespace ExampleApp;
 
 class HelloWorld
 {
-    public function announce(): void
+    public function __invoke(): void
     {
         echo 'Hello, autoloaded world!';
+        exit;
     }
 }
