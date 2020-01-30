@@ -4,6 +4,7 @@
   "homepage": "https://github.com/mmunaretto/birthday-greetings-kata",
   "type": "project",
   "require": {
+    "phpunit/phpunit": "^8",
     "php-di/php-di": "@stable",
     "relay/relay": "~2.0",
     "laminas/laminas-diactoros": "~2.0",
