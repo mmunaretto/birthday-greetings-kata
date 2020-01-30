@@ -1,0 +1,11 @@
+{
+  "name": "claranet/birthday-greetings-kata",
+  "description": "An example of a modern PHP application bootstrapped without a framework.",
+  "type": "project",
+  "require": {},
+  "autoload": {
+      "psr-4": {
+          "ExampleApp\\": "src/"
+      }
+  }
+}
